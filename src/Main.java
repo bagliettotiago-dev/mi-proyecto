@@ -17,3 +17,15 @@ public static int calcularDuracionJornada(int cantidadMaterias, int duracionMate
     int duracionRecreos = (cantidadMaterias - 1) * 15;
     return duracionMaterias + duracionRecreos;
 }
+
+
+public static double calcularCostoViaje(
+        double distCiudad1, double distCiudad2, double distCiudad3,
+        double consumoLitrosPorKm, double precioLitro, double peajePorCiudad) {
+
+    double distanciaTotal = distCiudad1 + distCiudad2 + distCiudad3;
+    double costoCombustible = distanciaTotal * consumoLitrosPorKm * precioLitro;
+    double costoPeajes = 3 * peajePorCiudad;
+
+    return costoCombustible + costoPeajes;
+}
