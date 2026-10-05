@@ -11,3 +11,9 @@ void main() {
         IO.println("i = " + i);
     }
 }
+public static int calcularDuracionJornada(int cantidadMaterias, int duracionMateriaMin) {
+    if (cantidadMaterias <= 0) return 0;
+    int duracionMaterias = cantidadMaterias * duracionMateriaMin;
+    int duracionRecreos = (cantidadMaterias - 1) * 15;
+    return duracionMaterias + duracionRecreos;
+}
