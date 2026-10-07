@@ -1,0 +1,82 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="y3_D0k28l_YakgrptBmV">
+    <mxGraphModel dx="722" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-35" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Libro" vertex="1">
+          <mxGeometry height="619" width="560" x="120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-40" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- codigo: string" vertex="1">
+          <mxGeometry height="26" width="560" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-36" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ titulo: string&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="560" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-44" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ autor: string" vertex="1">
+          <mxGeometry height="26" width="560" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-43" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ stock: int" vertex="1">
+          <mxGeometry height="26" width="560" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-42" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ precioCosto: double" vertex="1">
+          <mxGeometry height="26" width="560" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-41" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ precioVenta: double" vertex="1">
+          <mxGeometry height="26" width="560" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-45" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ sector: char" vertex="1">
+          <mxGeometry height="26" width="560" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-37" parent="quLfbf4T2CpOg_bhPFN0-35" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="560" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-38" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ libro(&lt;span style=&quot;background-color: transparent;&quot;&gt;codigo: String, titulo: String, autor: String, stockDisponible: int,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;precioCosto: double, precioVenta: double, sector: char)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="39" width="560" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-48" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+getCodigo(): String" vertex="1">
+          <mxGeometry height="26" width="560" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-47" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getTitulo(): String" vertex="1">
+          <mxGeometry height="26" width="560" y="281" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-53" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getAutor(): String" vertex="1">
+          <mxGeometry height="26" width="560" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-52" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getStock(): int" vertex="1">
+          <mxGeometry height="26" width="560" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-51" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getPrecioCosto(): double" vertex="1">
+          <mxGeometry height="26" width="560" y="359" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-50" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getPrecioVenta(): double" vertex="1">
+          <mxGeometry height="26" width="560" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-39" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ setPrecioVenta(precioVenta: double): void" vertex="1">
+          <mxGeometry height="26" width="560" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-49" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getSector(): char" vertex="1">
+          <mxGeometry height="26" width="560" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-58" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ setSector(sector: char): void" vertex="1">
+          <mxGeometry height="26" width="560" y="463" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-57" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ hayDisponibilidad(): boolean" vertex="1">
+          <mxGeometry height="26" width="560" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-56" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ actualizarStockCompleto(nuevoStock: int): void" vertex="1">
+          <mxGeometry height="26" width="560" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-55" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ modificarStock(cantidad: int): void" vertex="1">
+          <mxGeometry height="26" width="560" y="541" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-54" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ calcularCostoTotal(): double" vertex="1">
+          <mxGeometry height="26" width="560" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="quLfbf4T2CpOg_bhPFN0-59" parent="quLfbf4T2CpOg_bhPFN0-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ calcularPrecioFinalVenta(): double" vertex="1">
+          <mxGeometry height="26" width="560" y="593" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
